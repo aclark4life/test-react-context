@@ -1,3 +1,4 @@
+PROJECT_NAME := test-react-context
 install:
 	$(MAKE) npm-install
 
