@@ -1,13 +1,15 @@
 // App.js
 import React from 'react';
-import Context from './Context.js';
+import MyProvider from './MyProvider.js';
+import MyComponent from './MyComponent.js';
 
 const App = () => {
 
   return (
-      <div>
+    <MyProvider>
         <p>Hello, world!</p>
-      </div>
+        <MyComponent />
+    </MyProvider>
   );
 };
 
