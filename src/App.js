@@ -1,5 +1,6 @@
 // App.js
 import React from 'react';
+import Context from './Context.js';
 
 const App = () => {
 
