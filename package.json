@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/preset-react": "^7.23.3"
+  }
 }
